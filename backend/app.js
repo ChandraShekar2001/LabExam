@@ -41,6 +41,7 @@ app.get("/display", (req, res) => {
     });
 });
 app.post("/submit", (req, res) => {
+    console.log(req.body);
     const gender = req.body.data.gender;
     const favcuisine = req.body.data.favcuisine;
     const curhabits = req.body.data.curhabits;

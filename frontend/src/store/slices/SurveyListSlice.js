@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 const SurveyListSlice = createSlice({
-    name: "form",
+    name: "surveylist",
     initialState: {
         loading: false,
         error: null,

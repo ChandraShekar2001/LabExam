@@ -1,4 +1,5 @@
-export const submitUserform = ({data})=> async (dispatch)=>{
+export const submitUserform = (data)=> async (dispatch)=>{
+    console.log(data);
     const res = await fetch("http://localhost:8000/submit", {
         method: "POST",
         body: JSON.stringify({ data }),
